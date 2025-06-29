@@ -58,6 +58,7 @@ sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
 deb [arch=amd64 signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com bookworm main
 sudo apt-get update
 sudo apt-get install terraform
+terraform -install-autocomplete
 
 7)
 curl
